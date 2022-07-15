@@ -42,7 +42,7 @@ spec:
             - name: PASSWORD
               valueFrom:
                 secretKeyRef:
-                  name: auth-password
+                  name: auth-password-prod
                   key: password
           volumeMounts:
             - name: secrets-store-inline
